@@ -1,19 +1,15 @@
 import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://github.com/mihailo89/"
-          rel="noopener noreferrer"
-        >
-          Todo app in progress...
-        </a>
-      </header>
+      <div className="h-screen bg-gray-900 flex flex-column items-center justify-center">
+
+        <div>
+          <img className="w-64 h-64 m-auto" src={logo} alt=""/>
+          <p className="text-gray-400 text-center text-4xl">App Under Construction</p>
+        </div>
+      </div>
     </div>
   );
 }
